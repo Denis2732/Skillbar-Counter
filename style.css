@@ -1,0 +1,112 @@
+body {
+	font-family: 'Open Sans', 'sans-serif';
+	
+}
+h1 {
+	margin-left: 24px;
+
+}
+.skillbar {
+	background-color: #eee;
+	position: relative;
+	display: block;
+	width: 90%;
+	height: 35px;
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-bottom: 15px;
+	transition: 0.4s linear;
+	transition-property: width. background-color; 
+	border-radius: 3px; 
+}
+
+.skillbar-title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-weight: bold;
+	font-size: 13px;
+	background: #6adcfa;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	
+
+}
+.skillbar-title span{
+	display: block;
+	background: rgba(0,0,0,0.1);
+	padding: 0 20px;
+	height: 35px;
+	line-height: 35px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	color: #fff;
+	
+}
+.skillbar-bar{
+	height: 35px;
+	width: 0;
+	background: #6adcfa;
+	border-radius: 3px;
+
+}
+.skillbar-bar-percent {
+	position: absolute;
+	height: 35px;
+	line-height: 35px;
+	right: 32px;
+	top: 0;
+	font-size: 13px;
+	font-weight: bold;
+	opacity: 0.5;
+}
+
+p {
+	margin: 0;
+	position: absolute;
+	height: 35px;
+	line-height: 35px;
+	padding-right: 20px;
+	right: 0;
+	top: 0;
+	font-size: 13px;
+	font-weight: bold;
+	opacity: 0.5;
+	
+}
+.position-btn {
+	background-color: #fff;
+	position: relative;
+	display: block;
+	width: 90%;
+	height: 35px;
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-bottom: 15px;
+}
+.animate-btn {
+	height: 35px;
+	font-size: 13px;
+	font-weight: bold;
+	border: none;
+	background-color: #FF8C00;
+	border-radius: 3px;
+	padding-left: 24px;
+	padding-right: 24px;
+	color: #fff;
+	position: absolute;
+	right: 0;
+}
+.animate-btn:focus {
+	outline:none;
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.25),
+0 0 4px rgba(0,0,0,0.12);
+}
+.animate-btn:hover {
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.25),
+0 0 4px rgba(0,0,0,0.12);
+}
+.animate-btn:active {
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.25),
+    0 0 2px rgba(0,0,0,0.12);
+}
